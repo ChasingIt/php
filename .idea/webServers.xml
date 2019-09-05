@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="32296c94-9e3d-4dfb-851d-09df95dd0e56" name="AWS-Main-Server" url="http://3.13.180.87">
+        <fileTransfer host="3.13.180.87" port="22" privateKey="D:\OOPM\Chase-Comps-key-pair.pem" rootFolder="/var/www/html/" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
